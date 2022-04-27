@@ -8,5 +8,6 @@ public class PrintMasai {
             System.out.println(num);
             --num;
         }
+        //
     }
 }
