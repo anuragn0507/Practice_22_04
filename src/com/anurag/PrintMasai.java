@@ -2,12 +2,7 @@ package com.anurag;
 
 public class PrintMasai {
     public static void main(String[] args) {
-        int num=5;
+       int[] arr = new int[5];  // Dynamic memory allocation
 
-        while(num>0){
-            System.out.println(num);
-            --num;
-        }
-        //
     }
 }
