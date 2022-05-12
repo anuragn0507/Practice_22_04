@@ -10,7 +10,7 @@ public class Scope {
             // hence you cannot initialized again.
             int c =99;
         }
-        System.out.println(c);
+//        System.out.println(c);
         // values initialised in this block , will remain in block
 
     }
