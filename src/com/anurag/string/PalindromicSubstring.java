@@ -10,8 +10,8 @@ public class PalindromicSubstring {
 //        String s = "thisracecarisgood";
 //        longestPalSubstr(s);
 
-        longestPalSubstr("abbac");
-     System.out.println(isPalindrome("abbac"));
+        longestPalSubstr("abbaccacc");
+     System.out.println(isPalindrome("abbacdd"));
 
     }
 
@@ -25,6 +25,7 @@ public class PalindromicSubstring {
 
                   if(isPalindrome(str2) && (str2.length() > maxL)){
                       maxL = str2.length();
+                      System.out.println(maxL);
                   }
             }
 
