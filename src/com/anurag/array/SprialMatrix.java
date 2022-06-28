@@ -6,15 +6,16 @@ import java.util.*;
 public class SprialMatrix {
     public static void main(String[] args) {
         int a[][] = { { 1, 2, 3, 4 },
-                { 5, 6, 7, 8 },
-                { 9, 10, 11, 12 },
-                { 13, 14, 15, 16 } };
+                      { 5, 6, 7, 8 },
+                      { 9, 10,11,12 },
+                      { 13, 14,15,16 } };
 
         spiralOrder(4,4,a);
 
     }
 
     public static void spiralOrder(int r, int c, int[][] matrix) {
+
         int rs = 0, cs = 0;
         // r- ending row index of row
         // c- ending column index
@@ -22,9 +23,9 @@ public class SprialMatrix {
         while (rs < r && cs < c) {
             // Print the first row from the remaining row
             for (int j = cs; j < c; j++) {
-                System.out.println(matrix[rs][j]);
-            }
+                System.out.println(matrix[0][j]);
 
+            }
             rs++;
 
             // print the last column from the remaining columns
